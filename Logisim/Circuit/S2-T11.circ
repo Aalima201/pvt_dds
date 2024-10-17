@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <lib desc="file#C:\Users\lahar\OneDrive\Pictures\Saved Pictures\level1copy.circ" name="7"/>
+  <lib desc="file#C:\Users\lahar\OneDrive\Pictures\Saved Pictures\level2.circ" name="8"/>
+  <lib desc="file#C:\Users\lahar\OneDrive\Pictures\Saved Pictures\level3.circ" name="9"/>
+  <lib desc="file#C:\Users\lahar\OneDrive\Pictures\Saved Pictures\LFSR1.circ" name="10"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(730,1690)" to="(730,1700)"/>
+    <wire from="(710,1680)" to="(1080,1680)"/>
+    <wire from="(1080,1590)" to="(1080,1680)"/>
+    <wire from="(700,250)" to="(700,320)"/>
+    <wire from="(170,60)" to="(350,60)"/>
+    <wire from="(180,70)" to="(360,70)"/>
+    <wire from="(190,80)" to="(370,80)"/>
+    <wire from="(200,90)" to="(380,90)"/>
+    <wire from="(210,100)" to="(390,100)"/>
+    <wire from="(720,1030)" to="(780,1030)"/>
+    <wire from="(680,230)" to="(680,320)"/>
+    <wire from="(400,620)" to="(400,770)"/>
+    <wire from="(470,820)" to="(470,900)"/>
+    <wire from="(1160,1150)" to="(1160,1480)"/>
+    <wire from="(10,180)" to="(50,180)"/>
+    <wire from="(410,570)" to="(410,600)"/>
+    <wire from="(690,240)" to="(690,320)"/>
+    <wire from="(700,170)" to="(700,250)"/>
+    <wire from="(180,580)" to="(180,610)"/>
+    <wire from="(610,1090)" to="(610,1110)"/>
+    <wire from="(470,1140)" to="(470,1230)"/>
+    <wire from="(50,530)" to="(50,560)"/>
+    <wire from="(130,390)" to="(160,390)"/>
+    <wire from="(690,1570)" to="(690,1610)"/>
+    <wire from="(320,20)" to="(350,20)"/>
+    <wire from="(750,1250)" to="(780,1250)"/>
+    <wire from="(840,1890)" to="(930,1890)"/>
+    <wire from="(790,1090)" to="(790,1250)"/>
+    <wire from="(1030,1590)" to="(1030,1650)"/>
+    <wire from="(100,290)" to="(100,400)"/>
+    <wire from="(170,490)" to="(170,540)"/>
+    <wire from="(1040,1700)" to="(1070,1700)"/>
+    <wire from="(380,20)" to="(390,20)"/>
+    <wire from="(640,1220)" to="(770,1220)"/>
+    <wire from="(690,170)" to="(700,170)"/>
+    <wire from="(10,510)" to="(140,510)"/>
+    <wire from="(500,160)" to="(500,360)"/>
+    <wire from="(470,900)" to="(590,900)"/>
+    <wire from="(580,980)" to="(580,1050)"/>
+    <wire from="(40,200)" to="(40,280)"/>
+    <wire from="(690,1730)" to="(690,1820)"/>
+    <wire from="(720,1100)" to="(760,1100)"/>
+    <wire from="(910,1170)" to="(1140,1170)"/>
+    <wire from="(810,1290)" to="(810,1380)"/>
+    <wire from="(10,280)" to="(10,430)"/>
+    <wire from="(840,1800)" to="(840,1890)"/>
+    <wire from="(920,370)" to="(920,1160)"/>
+    <wire from="(30,590)" to="(30,680)"/>
+    <wire from="(940,1460)" to="(1050,1460)"/>
+    <wire from="(250,1040)" to="(610,1040)"/>
+    <wire from="(500,160)" to="(540,160)"/>
+    <wire from="(40,420)" to="(130,420)"/>
+    <wire from="(1150,1160)" to="(1150,1470)"/>
+    <wire from="(90,550)" to="(180,550)"/>
+    <wire from="(130,420)" to="(130,460)"/>
+    <wire from="(170,540)" to="(170,580)"/>
+    <wire from="(570,880)" to="(600,880)"/>
+    <wire from="(800,1240)" to="(960,1240)"/>
+    <wire from="(400,140)" to="(540,140)"/>
+    <wire from="(170,580)" to="(180,580)"/>
+    <wire from="(610,980)" to="(610,1040)"/>
+    <wire from="(450,1060)" to="(450,1110)"/>
+    <wire from="(680,170)" to="(680,230)"/>
+    <wire from="(640,1570)" to="(640,1630)"/>
+    <wire from="(370,20)" to="(370,80)"/>
+    <wire from="(180,820)" to="(180,940)"/>
+    <wire from="(380,910)" to="(580,910)"/>
+    <wire from="(160,530)" to="(160,590)"/>
+    <wire from="(600,1090)" to="(610,1090)"/>
+    <wire from="(1060,1590)" to="(1060,1670)"/>
+    <wire from="(670,1660)" to="(1040,1660)"/>
+    <wire from="(1070,1230)" to="(1070,1380)"/>
+    <wire from="(770,1090)" to="(770,1220)"/>
+    <wire from="(850,1250)" to="(850,1380)"/>
+    <wire from="(300,620)" to="(300,770)"/>
+    <wire from="(600,1290)" to="(600,1380)"/>
+    <wire from="(690,1610)" to="(1050,1610)"/>
+    <wire from="(920,1290)" to="(920,1380)"/>
+    <wire from="(690,1670)" to="(690,1700)"/>
+    <wire from="(170,590)" to="(170,610)"/>
+    <wire from="(600,1100)" to="(600,1130)"/>
+    <wire from="(710,1290)" to="(810,1290)"/>
+    <wire from="(150,520)" to="(150,610)"/>
+    <wire from="(70,200)" to="(70,290)"/>
+    <wire from="(150,490)" to="(150,520)"/>
+    <wire from="(450,1140)" to="(450,1230)"/>
+    <wire from="(730,1500)" to="(1030,1500)"/>
+    <wire from="(830,1480)" to="(1040,1480)"/>
+    <wire from="(140,510)" to="(140,610)"/>
+    <wire from="(160,660)" to="(160,700)"/>
+    <wire from="(10,510)" to="(10,560)"/>
+    <wire from="(360,20)" to="(370,20)"/>
+    <wire from="(390,570)" to="(390,620)"/>
+    <wire from="(1020,1520)" to="(1020,1560)"/>
+    <wire from="(470,1070)" to="(600,1070)"/>
+    <wire from="(840,350)" to="(890,350)"/>
+    <wire from="(360,700)" to="(360,770)"/>
+    <wire from="(790,1250)" to="(850,1250)"/>
+    <wire from="(1030,1290)" to="(1030,1380)"/>
+    <wire from="(710,170)" to="(710,260)"/>
+    <wire from="(670,1730)" to="(670,1820)"/>
+    <wire from="(710,1290)" to="(710,1380)"/>
+    <wire from="(500,360)" to="(800,360)"/>
+    <wire from="(1070,1450)" to="(1130,1450)"/>
+    <wire from="(900,1180)" to="(1130,1180)"/>
+    <wire from="(940,1140)" to="(1170,1140)"/>
+    <wire from="(1080,1460)" to="(1140,1460)"/>
+    <wire from="(1090,1470)" to="(1150,1470)"/>
+    <wire from="(1100,1480)" to="(1160,1480)"/>
+    <wire from="(1110,1490)" to="(1170,1490)"/>
+    <wire from="(70,540)" to="(70,560)"/>
+    <wire from="(800,1090)" to="(800,1240)"/>
+    <wire from="(10,590)" to="(10,680)"/>
+    <wire from="(90,590)" to="(90,680)"/>
+    <wire from="(120,430)" to="(120,460)"/>
+    <wire from="(70,540)" to="(170,540)"/>
+    <wire from="(600,1070)" to="(600,1090)"/>
+    <wire from="(590,1060)" to="(590,1100)"/>
+    <wire from="(600,1180)" to="(600,1290)"/>
+    <wire from="(900,370)" to="(900,1180)"/>
+    <wire from="(1030,1500)" to="(1030,1560)"/>
+    <wire from="(350,20)" to="(350,60)"/>
+    <wire from="(390,60)" to="(390,100)"/>
+    <wire from="(650,270)" to="(720,270)"/>
+    <wire from="(610,230)" to="(680,230)"/>
+    <wire from="(620,240)" to="(690,240)"/>
+    <wire from="(630,250)" to="(700,250)"/>
+    <wire from="(640,260)" to="(710,260)"/>
+    <wire from="(1140,1170)" to="(1140,1460)"/>
+    <wire from="(160,590)" to="(170,590)"/>
+    <wire from="(1050,1790)" to="(1050,1890)"/>
+    <wire from="(1090,1590)" to="(1090,1690)"/>
+    <wire from="(40,300)" to="(40,420)"/>
+    <wire from="(1070,1700)" to="(1070,1740)"/>
+    <wire from="(620,1520)" to="(1020,1520)"/>
+    <wire from="(70,410)" to="(140,410)"/>
+    <wire from="(590,900)" to="(590,950)"/>
+    <wire from="(180,490)" to="(180,550)"/>
+    <wire from="(590,1100)" to="(600,1100)"/>
+    <wire from="(930,370)" to="(930,1150)"/>
+    <wire from="(160,390)" to="(160,460)"/>
+    <wire from="(180,940)" to="(560,940)"/>
+    <wire from="(750,1250)" to="(750,1380)"/>
+    <wire from="(720,1030)" to="(720,1100)"/>
+    <wire from="(550,700)" to="(550,770)"/>
+    <wire from="(650,1650)" to="(1030,1650)"/>
+    <wire from="(80,280)" to="(130,280)"/>
+    <wire from="(510,1140)" to="(510,1230)"/>
+    <wire from="(1040,1590)" to="(1040,1660)"/>
+    <wire from="(260,700)" to="(360,700)"/>
+    <wire from="(580,1050)" to="(580,1130)"/>
+    <wire from="(590,980)" to="(590,1060)"/>
+    <wire from="(280,920)" to="(570,920)"/>
+    <wire from="(430,1140)" to="(430,1230)"/>
+    <wire from="(400,610)" to="(490,610)"/>
+    <wire from="(650,270)" to="(650,950)"/>
+    <wire from="(70,290)" to="(100,290)"/>
+    <wire from="(50,200)" to="(50,300)"/>
+    <wire from="(1050,1450)" to="(1060,1450)"/>
+    <wire from="(960,1890)" to="(1050,1890)"/>
+    <wire from="(640,1220)" to="(640,1380)"/>
+    <wire from="(130,280)" to="(130,390)"/>
+    <wire from="(370,570)" to="(370,610)"/>
+    <wire from="(580,150)" to="(670,150)"/>
+    <wire from="(70,300)" to="(70,410)"/>
+    <wire from="(470,1070)" to="(470,1110)"/>
+    <wire from="(450,1060)" to="(590,1060)"/>
+    <wire from="(630,250)" to="(630,950)"/>
+    <wire from="(60,300)" to="(70,300)"/>
+    <wire from="(1070,1590)" to="(1070,1630)"/>
+    <wire from="(650,1650)" to="(650,1700)"/>
+    <wire from="(640,260)" to="(640,950)"/>
+    <wire from="(1060,1450)" to="(1060,1560)"/>
+    <wire from="(830,1430)" to="(830,1480)"/>
+    <wire from="(1040,1480)" to="(1040,1560)"/>
+    <wire from="(260,700)" to="(260,770)"/>
+    <wire from="(380,20)" to="(380,90)"/>
+    <wire from="(690,1670)" to="(1060,1670)"/>
+    <wire from="(690,170)" to="(690,240)"/>
+    <wire from="(600,880)" to="(600,950)"/>
+    <wire from="(620,240)" to="(620,950)"/>
+    <wire from="(940,1430)" to="(940,1460)"/>
+    <wire from="(650,1730)" to="(650,1820)"/>
+    <wire from="(80,200)" to="(80,280)"/>
+    <wire from="(730,1730)" to="(730,1820)"/>
+    <wire from="(50,530)" to="(160,530)"/>
+    <wire from="(930,1150)" to="(1160,1150)"/>
+    <wire from="(510,1030)" to="(510,1110)"/>
+    <wire from="(610,230)" to="(610,950)"/>
+    <wire from="(450,700)" to="(550,700)"/>
+    <wire from="(70,590)" to="(70,680)"/>
+    <wire from="(380,820)" to="(380,910)"/>
+    <wire from="(320,580)" to="(360,580)"/>
+    <wire from="(620,1110)" to="(620,1130)"/>
+    <wire from="(810,1290)" to="(920,1290)"/>
+    <wire from="(10,180)" to="(10,210)"/>
+    <wire from="(1130,1180)" to="(1130,1450)"/>
+    <wire from="(710,1680)" to="(710,1700)"/>
+    <wire from="(580,910)" to="(580,950)"/>
+    <wire from="(10,280)" to="(40,280)"/>
+    <wire from="(360,700)" to="(450,700)"/>
+    <wire from="(30,520)" to="(30,560)"/>
+    <wire from="(160,490)" to="(160,530)"/>
+    <wire from="(10,210)" to="(30,210)"/>
+    <wire from="(780,1090)" to="(780,1250)"/>
+    <wire from="(620,980)" to="(620,1080)"/>
+    <wire from="(400,570)" to="(400,610)"/>
+    <wire from="(370,20)" to="(380,20)"/>
+    <wire from="(570,820)" to="(570,880)"/>
+    <wire from="(490,1080)" to="(620,1080)"/>
+    <wire from="(680,170)" to="(690,170)"/>
+    <wire from="(150,400)" to="(150,460)"/>
+    <wire from="(810,1090)" to="(810,1230)"/>
+    <wire from="(510,1030)" to="(630,1030)"/>
+    <wire from="(450,700)" to="(450,770)"/>
+    <wire from="(560,940)" to="(560,950)"/>
+    <wire from="(960,1240)" to="(960,1380)"/>
+    <wire from="(1050,1430)" to="(1050,1450)"/>
+    <wire from="(1050,1590)" to="(1050,1610)"/>
+    <wire from="(320,440)" to="(320,580)"/>
+    <wire from="(410,600)" to="(590,600)"/>
+    <wire from="(90,550)" to="(90,560)"/>
+    <wire from="(1170,1140)" to="(1170,1490)"/>
+    <wire from="(250,1030)" to="(250,1040)"/>
+    <wire from="(100,400)" to="(150,400)"/>
+    <wire from="(620,1430)" to="(620,1520)"/>
+    <wire from="(730,1690)" to="(1090,1690)"/>
+    <wire from="(600,1290)" to="(710,1290)"/>
+    <wire from="(920,1290)" to="(1030,1290)"/>
+    <wire from="(490,1140)" to="(490,1230)"/>
+    <wire from="(160,700)" to="(260,700)"/>
+    <wire from="(410,160)" to="(500,160)"/>
+    <wire from="(490,610)" to="(490,770)"/>
+    <wire from="(210,100)" to="(210,460)"/>
+    <wire from="(910,370)" to="(910,1170)"/>
+    <wire from="(430,1050)" to="(580,1050)"/>
+    <wire from="(720,170)" to="(720,270)"/>
+    <wire from="(730,340)" to="(800,340)"/>
+    <wire from="(200,90)" to="(200,460)"/>
+    <wire from="(1050,1460)" to="(1050,1560)"/>
+    <wire from="(300,620)" to="(380,620)"/>
+    <wire from="(40,300)" to="(50,300)"/>
+    <wire from="(360,20)" to="(360,70)"/>
+    <wire from="(1040,1660)" to="(1040,1700)"/>
+    <wire from="(430,1050)" to="(430,1110)"/>
+    <wire from="(190,80)" to="(190,460)"/>
+    <wire from="(610,1110)" to="(620,1110)"/>
+    <wire from="(1100,1480)" to="(1100,1560)"/>
+    <wire from="(180,70)" to="(180,460)"/>
+    <wire from="(160,700)" to="(160,770)"/>
+    <wire from="(30,520)" to="(150,520)"/>
+    <wire from="(1030,1650)" to="(1030,1740)"/>
+    <wire from="(1090,1470)" to="(1090,1560)"/>
+    <wire from="(940,370)" to="(940,1140)"/>
+    <wire from="(730,1430)" to="(730,1500)"/>
+    <wire from="(390,20)" to="(390,30)"/>
+    <wire from="(390,100)" to="(390,120)"/>
+    <wire from="(710,1730)" to="(710,1820)"/>
+    <wire from="(170,60)" to="(170,460)"/>
+    <wire from="(10,430)" to="(120,430)"/>
+    <wire from="(600,980)" to="(600,1070)"/>
+    <wire from="(920,1160)" to="(1150,1160)"/>
+    <wire from="(200,610)" to="(370,610)"/>
+    <wire from="(140,490)" to="(140,510)"/>
+    <wire from="(570,920)" to="(570,950)"/>
+    <wire from="(1110,1490)" to="(1110,1560)"/>
+    <wire from="(640,1630)" to="(1070,1630)"/>
+    <wire from="(490,1080)" to="(490,1110)"/>
+    <wire from="(380,90)" to="(380,120)"/>
+    <wire from="(50,590)" to="(50,680)"/>
+    <wire from="(320,440)" to="(360,440)"/>
+    <wire from="(280,820)" to="(280,920)"/>
+    <wire from="(670,1660)" to="(670,1700)"/>
+    <wire from="(200,610)" to="(200,770)"/>
+    <wire from="(590,600)" to="(590,770)"/>
+    <wire from="(60,200)" to="(60,300)"/>
+    <wire from="(370,80)" to="(370,120)"/>
+    <wire from="(140,410)" to="(140,460)"/>
+    <wire from="(390,620)" to="(400,620)"/>
+    <wire from="(810,1230)" to="(1070,1230)"/>
+    <wire from="(350,20)" to="(360,20)"/>
+    <wire from="(380,570)" to="(380,620)"/>
+    <wire from="(1080,1460)" to="(1080,1560)"/>
+    <wire from="(710,260)" to="(710,320)"/>
+    <wire from="(360,70)" to="(360,120)"/>
+    <wire from="(630,980)" to="(630,1030)"/>
+    <wire from="(350,60)" to="(350,120)"/>
+    <wire from="(720,270)" to="(720,320)"/>
+    <wire from="(1070,1450)" to="(1070,1560)"/>
+    <comp lib="1" loc="(730,1730)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(217,1424)" name="Text">
+      <a name="text" val="Use switches (Switch1, Switch2, Switch3) to input 5-bit data for each level."/>
+    </comp>
+    <comp lib="6" loc="(112,1703)" name="Text">
+      <a name="text" val="Dark Green LED: Subsystem working."/>
+    </comp>
+    <comp lib="6" loc="(63,1579)" name="Text">
+      <a name="text" val="1: Attempt recovery."/>
+    </comp>
+    <comp lib="10" loc="(40,200)" name="main"/>
+    <comp lib="6" loc="(146,1654)" name="Text">
+      <a name="text" val="Non-crucial: Bit set to 0 (non-working state/OFF)."/>
+    </comp>
+    <comp lib="6" loc="(22,1892)" name="Text">
+      <a name="text" val="NOTE:"/>
+      <a name="font" val="SansSerif bolditalic 12"/>
+    </comp>
+    <comp lib="6" loc="(219,1020)" name="Text">
+      <a name="text" val="s21"/>
+    </comp>
+    <comp lib="1" loc="(470,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1020,203)" name="Text">
+      <a name="text" val="Bukke Lahari 231CS217"/>
+      <a name="font" val="SansSerif italic 20"/>
+    </comp>
+    <comp lib="1" loc="(70,590)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(30,680)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O2"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="1" loc="(510,1140)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(61,1811)" name="Text">
+      <a name="text" val="6.Mission Success:"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(570,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(154,1719)" name="Text">
+      <a name="text" val="Red LED (Light Green Wire): Subsystem not working."/>
+    </comp>
+    <comp lib="1" loc="(600,1180)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="5" loc="(840,1800)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(129,221)" name="Text">
+      <a name="text" val="FOR LEVEL 1"/>
+    </comp>
+    <comp lib="0" loc="(410,160)" name="Pin">
+      <a name="width" val="3"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="LEFT SHIFT BY 001"/>
+    </comp>
+    <comp lib="6" loc="(247,1785)" name="Text">
+      <a name="text" val="Proceeds to the next level if crucial bits are corrected. If not, the mission terminates."/>
+    </comp>
+    <comp lib="6" loc="(1027,976)" name="Text">
+      <a name="text" val="5-BIT EXPECTED OUTPUT"/>
+    </comp>
+    <comp lib="6" loc="(130,208)" name="Text">
+      <a name="text" val="5-BIT INPUT"/>
+    </comp>
+    <comp lib="6" loc="(991,994)" name="Text">
+      <a name="text" val="FOR LEVEL 3"/>
+    </comp>
+    <comp lib="1" loc="(940,1430)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(369,414)" name="Text">
+      <a name="text" val="SWITCH2"/>
+    </comp>
+    <comp lib="6" loc="(704,582)" name="Text">
+      <a name="text" val="FOR LEVEL  2"/>
+    </comp>
+    <comp lib="9" loc="(1020,1560)" name="main"/>
+    <comp lib="5" loc="(670,1820)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O2"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="6" loc="(52,1591)" name="Text">
+      <a name="text" val="0: Skip recovery."/>
+    </comp>
+    <comp lib="5" loc="(430,1230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O1"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="6" loc="(789,1004)" name="Text">
+      <a name="text" val="SWITCH3"/>
+    </comp>
+    <comp lib="1" loc="(470,1140)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(825,1060)" name="Text">
+      <a name="text" val="5-BIT INPUT"/>
+    </comp>
+    <comp lib="1" loc="(710,1730)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(50,680)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O3"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="6" loc="(54,1447)" name="Text">
+      <a name="text" val="2.Fault Detection: "/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(152,1921)" name="Text">
+      <a name="text" val="on each other whether subsystem is crucial or not"/>
+    </comp>
+    <comp lib="7" loc="(120,460)" name="main"/>
+    <comp lib="1" loc="(160,660)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="10" loc="(370,570)" name="main"/>
+    <comp lib="1" loc="(30,590)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(280,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="5" loc="(360,440)" name="Button">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(450,1140)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(690,1730)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(400,140)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="5"/>
+      <a name="incoming" val="5"/>
+    </comp>
+    <comp lib="5" loc="(730,1820)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O5"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="6" loc="(475,583)" name="Text">
+      <a name="text" val="FOR LEVEL 2"/>
+    </comp>
+    <comp lib="5" loc="(690,1820)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O3"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="6" loc="(149,1465)" name="Text">
+      <a name="text" val="For Level 1, the expected 5-bit output is constant. "/>
+    </comp>
+    <comp lib="6" loc="(72,1404)" name="Text">
+      <a name="text" val="1.Set Subsystem Inputs: "/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(474,569)" name="Text">
+      <a name="text" val="5-BIT INPUT"/>
+    </comp>
+    <comp lib="6" loc="(221,1482)" name="Text">
+      <a name="text" val="For other levels, the expected output is left-shifted from the previous level. "/>
+    </comp>
+    <comp lib="5" loc="(10,680)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O1"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="0" loc="(320,20)" name="Constant"/>
+    <comp lib="1" loc="(650,1730)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(640,1570)" name="Button">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(450,1230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O2"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="0" loc="(890,350)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="5"/>
+      <a name="incoming" val="5"/>
+    </comp>
+    <comp lib="6" loc="(294,349)" name="Text">
+      <a name="text" val="5-BIT EXPECTED OUTPUT"/>
+    </comp>
+    <comp lib="6" loc="(843,1771)" name="Text">
+      <a name="text" val="MISSION SUCCESSFUL"/>
+    </comp>
+    <comp lib="1" loc="(380,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="3" loc="(840,350)" name="Shifter">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="6" loc="(982,151)" name="Text">
+      <a name="text" val="TEAM DETAILS:"/>
+      <a name="font" val="SansSerif italic 20"/>
+    </comp>
+    <comp lib="6" loc="(194,1499)" name="Text">
+      <a name="text" val="A fault is detected if the input doesn't match the expected output. "/>
+    </comp>
+    <comp lib="5" loc="(650,1820)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O1"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="5" loc="(470,1230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O3"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="6" loc="(845,1757)" name="Text">
+      <a name="text" val="BLACK WITH GREEN WIRE: "/>
+    </comp>
+    <comp lib="5" loc="(490,1230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O4"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="1" loc="(830,1430)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(180,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(59,153)" name="Text">
+      <a name="text" val="SWITCH1"/>
+    </comp>
+    <comp lib="6" loc="(256,363)" name="Text">
+      <a name="text" val="FOR LEVEL  1"/>
+    </comp>
+    <comp lib="5" loc="(690,1570)" name="Button">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(510,1230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O5"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="5" loc="(710,1820)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O4"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="6" loc="(48,1769)" name="Text">
+      <a name="text" val="5.Progression:"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(64,1368)" name="Text">
+      <a name="text" val="INSTRUCTIONS "/>
+      <a name="font" val="SansSerif bolditalic 16"/>
+    </comp>
+    <comp lib="6" loc="(151,1827)" name="Text">
+      <a name="text" val="If all levels pass, the Mission Success LED lights up."/>
+    </comp>
+    <comp lib="6" loc="(147,1739)" name="Text">
+      <a name="text" val="Black LED (Red Wire): The user skipped recovery."/>
+    </comp>
+    <comp lib="5" loc="(90,680)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O5"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="6" loc="(739,570)" name="Text">
+      <a name="text" val="5-BIT EXPECTED OUTPUT"/>
+    </comp>
+    <comp lib="5" loc="(70,680)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="O4"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="5" loc="(50,180)" name="Button">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(730,340)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="5"/>
+      <a name="incoming" val="5"/>
+    </comp>
+    <comp lib="6" loc="(932,313)" name="Text">
+      <a name="text" val="SHIFTER LEFT SHIFTS EXPECTED OUTPUT OF LEVEL 2(11100) BY  1"/>
+    </comp>
+    <comp lib="1" loc="(620,1430)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1042,226)" name="Text">
+      <a name="text" val="Sadipirala Basitha 231CS251"/>
+      <a name="font" val="SansSerif italic 20"/>
+    </comp>
+    <comp lib="1" loc="(490,1140)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(216,1910)" name="Text">
+      <a name="text" val="The correction within each level  all the 4 subsystems(From LHS) depends"/>
+    </comp>
+    <comp lib="6" loc="(613,1567)" name="Text">
+      <a name="text" val="s31"/>
+    </comp>
+    <comp lib="5" loc="(780,1030)" name="Button">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(430,1140)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(57,1681)" name="Text">
+      <a name="text" val="4.Monitor Status:"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(1050,1430)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="3" loc="(580,150)" name="Shifter">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="1" loc="(90,590)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(250,1030)" name="Button">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(670,150)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="5"/>
+      <a name="incoming" val="5"/>
+    </comp>
+    <comp lib="6" loc="(666,1561)" name="Text">
+      <a name="text" val="s32"/>
+    </comp>
+    <comp lib="1" loc="(390,60)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(10,590)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(58,1621)" name="Text">
+      <a name="text" val="Recovery Meaning:"/>
+    </comp>
+    <comp lib="1" loc="(670,1730)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="10" loc="(770,1090)" name="main"/>
+    <comp lib="6" loc="(133,1640)" name="Text">
+      <a name="text" val="Crucial: Bit restored to 1 (working state/ON)."/>
+    </comp>
+    <comp lib="1" loc="(730,1430)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(70,1524)" name="Text">
+      <a name="text" val="3.Subsystem Recovery:"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(930,1890)" name="NOT Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(50,590)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(826,1080)" name="Text">
+      <a name="text" val="FOR LEVEL 3"/>
+    </comp>
+    <comp lib="1" loc="(1050,1790)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(606,117)" name="Text">
+      <a name="text" val="SHIFTER LEFT SHIFTS EXPECTED OUTPUT OF LEVEL 1(11110) BY  1"/>
+    </comp>
+    <comp lib="6" loc="(213,1561)" name="Text">
+      <a name="text" val="Non-crucial Subsystems: Use small switches (s1.x, s2.x, s3.x) to decide:"/>
+    </comp>
+    <comp lib="6" loc="(322,1545)" name="Text">
+      <a name="text" val="Crucial Subsystems: Automatically attempts recovery (the first bit is uncorrectable, next three are correctable)."/>
+    </comp>
+    <comp lib="6" loc="(1154,63)" name="Text">
+      <a name="text" val="FAULT TOLERANCE IN SPACECRAFTS"/>
+      <a name="font" val="SansSerif bold 26"/>
+    </comp>
+    <comp lib="6" loc="(203,1844)" name="Text">
+      <a name="text" val="If any crucial subsystem fails, the mission fails, and the system stops."/>
+    </comp>
+    <comp lib="6" loc="(1022,180)" name="Text">
+      <a name="text" val="Aalima Khan 231CS201"/>
+      <a name="font" val="SansSerif italic 20"/>
+    </comp>
+    <comp lib="8" loc="(560,950)" name="main"/>
+  </circuit>
+</project>
